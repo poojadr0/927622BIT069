@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:3001"; // Replace with your actual API endpoint
+const API_BASE = "http://localhost:3000"; // Updated to match backend port
 
 export const fetchStocks = async () => {
   try {
